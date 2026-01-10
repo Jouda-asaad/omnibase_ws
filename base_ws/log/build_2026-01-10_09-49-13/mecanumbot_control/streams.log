@@ -1,0 +1,23 @@
+[0.010s] Invoking command in '/home/seth/base_ws/build/mecanumbot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seth/omnibase_ws/install/omnibase_vision:/home/seth/omnibase_ws/install/omnibase_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/seth/base_ws/build/mecanumbot_control -- -j12 -l12
+[0.055s] [100%] Built target mecanumbot_control_node
+[0.075s] Invoked command in '/home/seth/base_ws/build/mecanumbot_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seth/omnibase_ws/install/omnibase_vision:/home/seth/omnibase_ws/install/omnibase_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/seth/base_ws/build/mecanumbot_control -- -j12 -l12
+[0.076s] Invoking command in '/home/seth/base_ws/build/mecanumbot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seth/omnibase_ws/install/omnibase_vision:/home/seth/omnibase_ws/install/omnibase_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/seth/base_ws/build/mecanumbot_control
+[0.082s] -- Install configuration: ""
+[0.083s] -- Execute custom install script
+[0.083s] -- Up-to-date symlink: /home/seth/base_ws/install/mecanumbot_control/lib/mecanumbot_control/mecanumbot_control_node
+[0.083s] -- Up-to-date symlink: /home/seth/base_ws/install/mecanumbot_control/share/ament_index/resource_index/package_run_dependencies/mecanumbot_control
+[0.083s] -- Up-to-date symlink: /home/seth/base_ws/install/mecanumbot_control/share/ament_index/resource_index/parent_prefix_path/mecanumbot_control
+[0.083s] -- Up-to-date symlink: /home/seth/base_ws/install/mecanumbot_control/share/mecanumbot_control/environment/ament_prefix_path.sh
+[0.083s] -- Up-to-date symlink: /home/seth/base_ws/install/mecanumbot_control/share/mecanumbot_control/environment/ament_prefix_path.dsv
+[0.083s] -- Up-to-date symlink: /home/seth/base_ws/install/mecanumbot_control/share/mecanumbot_control/environment/path.sh
+[0.083s] -- Up-to-date symlink: /home/seth/base_ws/install/mecanumbot_control/share/mecanumbot_control/environment/path.dsv
+[0.083s] -- Up-to-date symlink: /home/seth/base_ws/install/mecanumbot_control/share/mecanumbot_control/local_setup.bash
+[0.083s] -- Up-to-date symlink: /home/seth/base_ws/install/mecanumbot_control/share/mecanumbot_control/local_setup.sh
+[0.084s] -- Up-to-date symlink: /home/seth/base_ws/install/mecanumbot_control/share/mecanumbot_control/local_setup.zsh
+[0.084s] -- Up-to-date symlink: /home/seth/base_ws/install/mecanumbot_control/share/mecanumbot_control/local_setup.dsv
+[0.084s] -- Symlinking: /home/seth/base_ws/install/mecanumbot_control/share/mecanumbot_control/package.dsv
+[0.091s] -- Up-to-date symlink: /home/seth/base_ws/install/mecanumbot_control/share/ament_index/resource_index/packages/mecanumbot_control
+[0.091s] -- Up-to-date symlink: /home/seth/base_ws/install/mecanumbot_control/share/mecanumbot_control/cmake/mecanumbot_controlConfig.cmake
+[0.091s] -- Up-to-date symlink: /home/seth/base_ws/install/mecanumbot_control/share/mecanumbot_control/cmake/mecanumbot_controlConfig-version.cmake
+[0.091s] -- Up-to-date symlink: /home/seth/base_ws/install/mecanumbot_control/share/mecanumbot_control/package.xml
+[0.092s] Invoked command in '/home/seth/base_ws/build/mecanumbot_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seth/omnibase_ws/install/omnibase_vision:/home/seth/omnibase_ws/install/omnibase_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/seth/base_ws/build/mecanumbot_control

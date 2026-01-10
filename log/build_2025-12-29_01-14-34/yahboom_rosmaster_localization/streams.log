@@ -1,0 +1,35 @@
+[0.253s] Invoking command in '/home/seth/omnibase_ws/build/yahboom_rosmaster_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seth/omnibase_ws/install/omnibase_vision:/home/seth/omnibase_ws/install/omnibase_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/seth/omnibase_ws/yahboom_rosmaster/yahboom_rosmaster_localization -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/seth/omnibase_ws/install/yahboom_rosmaster_localization
+[0.300s] -- The C compiler identification is GNU 11.5.0
+[0.347s] -- The CXX compiler identification is GNU 11.5.0
+[0.363s] -- Detecting C compiler ABI info
+[0.436s] -- Detecting C compiler ABI info - done
+[0.446s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.446s] -- Detecting C compile features
+[0.446s] -- Detecting C compile features - done
+[0.454s] -- Detecting CXX compiler ABI info
+[0.543s] -- Detecting CXX compiler ABI info - done
+[0.554s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.554s] -- Detecting CXX compile features
+[0.554s] -- Detecting CXX compile features - done
+[0.556s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.692s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.752s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.813s] -- Configuring incomplete, errors occurred!
+[0.814s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[0.814s]   By not providing "Findrobot_localization.cmake" in CMAKE_MODULE_PATH this
+[0.814s]   project has asked CMake to find a package configuration file provided by
+[0.814s]   "robot_localization", but CMake did not find one.
+[0.814s] 
+[0.814s]   Could not find a package configuration file provided by
+[0.814s]   "robot_localization" with any of the following names:
+[0.814s] 
+[0.814s]     robot_localizationConfig.cmake
+[0.814s]     robot_localization-config.cmake
+[0.814s] 
+[0.814s]   Add the installation prefix of "robot_localization" to CMAKE_PREFIX_PATH or
+[0.814s]   set "robot_localization_DIR" to a directory containing one of the above
+[0.814s]   files.  If "robot_localization" provides a separate development package or
+[0.814s]   SDK, be sure it has been installed.
+[0.814s] 
+[0.814s] [0m
+[0.818s] Invoked command in '/home/seth/omnibase_ws/build/yahboom_rosmaster_localization' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seth/omnibase_ws/install/omnibase_vision:/home/seth/omnibase_ws/install/omnibase_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/seth/omnibase_ws/yahboom_rosmaster/yahboom_rosmaster_localization -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/seth/omnibase_ws/install/yahboom_rosmaster_localization

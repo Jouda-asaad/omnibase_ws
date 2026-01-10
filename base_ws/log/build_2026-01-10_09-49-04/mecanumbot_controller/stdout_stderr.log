@@ -1,0 +1,29 @@
+[100%] Built target mecanumbot_controller
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/seth/base_ws/install/mecanumbot_controller/share/mecanumbot_controller//mecanumbot_controller.xml
+-- Symlinking: /home/seth/base_ws/install/mecanumbot_controller/lib/libmecanumbot_controller.so
+-- Symlinking: /home/seth/base_ws/install/mecanumbot_controller/include/include/mecanumbot_controller/mecanumbot_controller_compiler.h
+-- Symlinking: /home/seth/base_ws/install/mecanumbot_controller/include/include/mecanumbot_controller/mecanumbot_drive_controller.hpp
+-- Symlinking: /home/seth/base_ws/install/mecanumbot_controller/include/include/mecanumbot_controller/mecanumbot_wheel.hpp
+-- Symlinking: /home/seth/base_ws/install/mecanumbot_controller/share/mecanumbot_controller/environment/library_path.sh
+-- Symlinking: /home/seth/base_ws/install/mecanumbot_controller/share/mecanumbot_controller/environment/library_path.dsv
+-- Symlinking: /home/seth/base_ws/install/mecanumbot_controller/share/ament_index/resource_index/package_run_dependencies/mecanumbot_controller
+-- Symlinking: /home/seth/base_ws/install/mecanumbot_controller/share/ament_index/resource_index/parent_prefix_path/mecanumbot_controller
+-- Symlinking: /home/seth/base_ws/install/mecanumbot_controller/share/mecanumbot_controller/environment/ament_prefix_path.sh
+-- Symlinking: /home/seth/base_ws/install/mecanumbot_controller/share/mecanumbot_controller/environment/ament_prefix_path.dsv
+-- Symlinking: /home/seth/base_ws/install/mecanumbot_controller/share/mecanumbot_controller/environment/path.sh
+-- Symlinking: /home/seth/base_ws/install/mecanumbot_controller/share/mecanumbot_controller/environment/path.dsv
+-- Symlinking: /home/seth/base_ws/install/mecanumbot_controller/share/mecanumbot_controller/local_setup.bash
+-- Symlinking: /home/seth/base_ws/install/mecanumbot_controller/share/mecanumbot_controller/local_setup.sh
+-- Symlinking: /home/seth/base_ws/install/mecanumbot_controller/share/mecanumbot_controller/local_setup.zsh
+-- Symlinking: /home/seth/base_ws/install/mecanumbot_controller/share/mecanumbot_controller/local_setup.dsv
+-- Symlinking: /home/seth/base_ws/install/mecanumbot_controller/share/mecanumbot_controller/package.dsv
+-- Symlinking: /home/seth/base_ws/install/mecanumbot_controller/share/ament_index/resource_index/packages/mecanumbot_controller
+-- Symlinking: /home/seth/base_ws/install/mecanumbot_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/mecanumbot_controller
+-- Symlinking: /home/seth/base_ws/install/mecanumbot_controller/share/mecanumbot_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/seth/base_ws/install/mecanumbot_controller/share/mecanumbot_controller/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/seth/base_ws/install/mecanumbot_controller/share/mecanumbot_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/seth/base_ws/install/mecanumbot_controller/share/mecanumbot_controller/cmake/mecanumbot_controllerConfig.cmake
+-- Symlinking: /home/seth/base_ws/install/mecanumbot_controller/share/mecanumbot_controller/cmake/mecanumbot_controllerConfig-version.cmake
+-- Symlinking: /home/seth/base_ws/install/mecanumbot_controller/share/mecanumbot_controller/package.xml

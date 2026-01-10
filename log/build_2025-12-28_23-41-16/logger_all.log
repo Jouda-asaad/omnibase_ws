@@ -1,0 +1,442 @@
+[0.055s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.055s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7e1a6976dd60>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7e1a6988e750>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7e1a6988e750>>)
+[0.077s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.077s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.077s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.077s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.077s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.077s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.077s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/seth/omnibase_ws'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/omnibase_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/omnibase_bringup) by extension 'ignore'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/omnibase_bringup) by extension 'ignore_ament_install'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/omnibase_bringup) by extensions ['colcon_pkg']
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/omnibase_bringup) by extension 'colcon_pkg'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/omnibase_bringup) by extensions ['colcon_meta']
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/omnibase_bringup) by extension 'colcon_meta'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/omnibase_bringup) by extensions ['ros']
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/omnibase_bringup) by extension 'ros'
+[0.094s] DEBUG:colcon.colcon_core.package_identification:Package 'src/omnibase_bringup' with type 'ros.ament_cmake' and name 'omnibase_bringup'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/omnibase_control) by extensions ['ignore', 'ignore_ament_install']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/omnibase_control) by extension 'ignore'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/omnibase_control) by extension 'ignore_ament_install'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/omnibase_control) by extensions ['colcon_pkg']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/omnibase_control) by extension 'colcon_pkg'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/omnibase_control) by extensions ['colcon_meta']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/omnibase_control) by extension 'colcon_meta'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/omnibase_control) by extensions ['ros']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/omnibase_control) by extension 'ros'
+[0.095s] DEBUG:colcon.colcon_core.package_identification:Package 'src/omnibase_control' with type 'ros.ament_python' and name 'omnibase_control'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/omnibase_description) by extensions ['ignore', 'ignore_ament_install']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/omnibase_description) by extension 'ignore'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/omnibase_description) by extension 'ignore_ament_install'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/omnibase_description) by extensions ['colcon_pkg']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/omnibase_description) by extension 'colcon_pkg'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/omnibase_description) by extensions ['colcon_meta']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/omnibase_description) by extension 'colcon_meta'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/omnibase_description) by extensions ['ros']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/omnibase_description) by extension 'ros'
+[0.095s] DEBUG:colcon.colcon_core.package_identification:Package 'src/omnibase_description' with type 'ros.ament_cmake' and name 'omnibase_description'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/omnibase_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/omnibase_gazebo) by extension 'ignore'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/omnibase_gazebo) by extension 'ignore_ament_install'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/omnibase_gazebo) by extensions ['colcon_pkg']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/omnibase_gazebo) by extension 'colcon_pkg'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/omnibase_gazebo) by extensions ['colcon_meta']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/omnibase_gazebo) by extension 'colcon_meta'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/omnibase_gazebo) by extensions ['ros']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/omnibase_gazebo) by extension 'ros'
+[0.096s] DEBUG:colcon.colcon_core.package_identification:Package 'src/omnibase_gazebo' with type 'ros.ament_cmake' and name 'omnibase_gazebo'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/omnibase_vision) by extensions ['ignore', 'ignore_ament_install']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/omnibase_vision) by extension 'ignore'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/omnibase_vision) by extension 'ignore_ament_install'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/omnibase_vision) by extensions ['colcon_pkg']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/omnibase_vision) by extension 'colcon_pkg'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/omnibase_vision) by extensions ['colcon_meta']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/omnibase_vision) by extension 'colcon_meta'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/omnibase_vision) by extensions ['ros']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/omnibase_vision) by extension 'ros'
+[0.096s] DEBUG:colcon.colcon_core.package_identification:Package 'src/omnibase_vision' with type 'ros.ament_python' and name 'omnibase_vision'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(uav) by extensions ['ignore', 'ignore_ament_install']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(uav) by extension 'ignore'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(uav) by extension 'ignore_ament_install'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(uav) by extensions ['colcon_pkg']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(uav) by extension 'colcon_pkg'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(uav) by extensions ['colcon_meta']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(uav) by extension 'colcon_meta'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(uav) by extensions ['ros']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(uav) by extension 'ros'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(uav) by extensions ['cmake', 'python']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(uav) by extension 'cmake'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(uav) by extension 'python'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(uav) by extensions ['python_setup_py']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(uav) by extension 'python_setup_py'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(uav/materials) by extensions ['ignore', 'ignore_ament_install']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(uav/materials) by extension 'ignore'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(uav/materials) by extension 'ignore_ament_install'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(uav/materials) by extensions ['colcon_pkg']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(uav/materials) by extension 'colcon_pkg'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(uav/materials) by extensions ['colcon_meta']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(uav/materials) by extension 'colcon_meta'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(uav/materials) by extensions ['ros']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(uav/materials) by extension 'ros'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(uav/materials) by extensions ['cmake', 'python']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(uav/materials) by extension 'cmake'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(uav/materials) by extension 'python'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(uav/materials) by extensions ['python_setup_py']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(uav/materials) by extension 'python_setup_py'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(uav/materials/textures) by extensions ['ignore', 'ignore_ament_install']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(uav/materials/textures) by extension 'ignore'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(uav/materials/textures) by extension 'ignore_ament_install'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(uav/materials/textures) by extensions ['colcon_pkg']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(uav/materials/textures) by extension 'colcon_pkg'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(uav/materials/textures) by extensions ['colcon_meta']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(uav/materials/textures) by extension 'colcon_meta'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(uav/materials/textures) by extensions ['ros']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(uav/materials/textures) by extension 'ros'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(uav/materials/textures) by extensions ['cmake', 'python']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(uav/materials/textures) by extension 'cmake'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(uav/materials/textures) by extension 'python'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(uav/materials/textures) by extensions ['python_setup_py']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(uav/materials/textures) by extension 'python_setup_py'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(uav/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(uav/meshes) by extension 'ignore'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(uav/meshes) by extension 'ignore_ament_install'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(uav/meshes) by extensions ['colcon_pkg']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(uav/meshes) by extension 'colcon_pkg'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(uav/meshes) by extensions ['colcon_meta']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(uav/meshes) by extension 'colcon_meta'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(uav/meshes) by extensions ['ros']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(uav/meshes) by extension 'ros'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(uav/meshes) by extensions ['cmake', 'python']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(uav/meshes) by extension 'cmake'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(uav/meshes) by extension 'python'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(uav/meshes) by extensions ['python_setup_py']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(uav/meshes) by extension 'python_setup_py'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(uav/thumbnails) by extensions ['ignore', 'ignore_ament_install']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(uav/thumbnails) by extension 'ignore'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(uav/thumbnails) by extension 'ignore_ament_install'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(uav/thumbnails) by extensions ['colcon_pkg']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(uav/thumbnails) by extension 'colcon_pkg'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(uav/thumbnails) by extensions ['colcon_meta']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(uav/thumbnails) by extension 'colcon_meta'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(uav/thumbnails) by extensions ['ros']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(uav/thumbnails) by extension 'ros'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(uav/thumbnails) by extensions ['cmake', 'python']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(uav/thumbnails) by extension 'cmake'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(uav/thumbnails) by extension 'python'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(uav/thumbnails) by extensions ['python_setup_py']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(uav/thumbnails) by extension 'python_setup_py'
+[0.097s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.097s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.097s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.097s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.097s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.107s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.107s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.108s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/seth/omnibase_ws/install
+[0.109s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/seth/mecanum_ws/install
+[0.110s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 366 installed packages in /opt/ros/jazzy
+[0.110s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'omnibase_control' build argument 'cmake_args' from command line to 'None'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'omnibase_control' build argument 'cmake_target' from command line to 'None'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'omnibase_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'omnibase_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'omnibase_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'omnibase_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'omnibase_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'omnibase_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'omnibase_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.136s] DEBUG:colcon.colcon_core.verb:Building package 'omnibase_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/seth/omnibase_ws/build/omnibase_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/seth/omnibase_ws/install/omnibase_control', 'merge_install': False, 'path': '/home/seth/omnibase_ws/src/omnibase_control', 'symlink_install': True, 'test_result_base': None}
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'omnibase_description' build argument 'cmake_args' from command line to 'None'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'omnibase_description' build argument 'cmake_target' from command line to 'None'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'omnibase_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'omnibase_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'omnibase_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'omnibase_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'omnibase_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'omnibase_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'omnibase_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.136s] DEBUG:colcon.colcon_core.verb:Building package 'omnibase_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/seth/omnibase_ws/build/omnibase_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/seth/omnibase_ws/install/omnibase_description', 'merge_install': False, 'path': '/home/seth/omnibase_ws/src/omnibase_description', 'symlink_install': True, 'test_result_base': None}
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'omnibase_vision' build argument 'cmake_args' from command line to 'None'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'omnibase_vision' build argument 'cmake_target' from command line to 'None'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'omnibase_vision' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'omnibase_vision' build argument 'cmake_clean_cache' from command line to 'False'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'omnibase_vision' build argument 'cmake_clean_first' from command line to 'False'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'omnibase_vision' build argument 'cmake_force_configure' from command line to 'False'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'omnibase_vision' build argument 'ament_cmake_args' from command line to 'None'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'omnibase_vision' build argument 'catkin_cmake_args' from command line to 'None'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'omnibase_vision' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.136s] DEBUG:colcon.colcon_core.verb:Building package 'omnibase_vision' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/seth/omnibase_ws/build/omnibase_vision', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/seth/omnibase_ws/install/omnibase_vision', 'merge_install': False, 'path': '/home/seth/omnibase_ws/src/omnibase_vision', 'symlink_install': True, 'test_result_base': None}
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'omnibase_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'omnibase_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'omnibase_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'omnibase_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'omnibase_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'omnibase_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'omnibase_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'omnibase_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'omnibase_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.136s] DEBUG:colcon.colcon_core.verb:Building package 'omnibase_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/seth/omnibase_ws/build/omnibase_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/seth/omnibase_ws/install/omnibase_gazebo', 'merge_install': False, 'path': '/home/seth/omnibase_ws/src/omnibase_gazebo', 'symlink_install': True, 'test_result_base': None}
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'omnibase_bringup' build argument 'cmake_args' from command line to 'None'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'omnibase_bringup' build argument 'cmake_target' from command line to 'None'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'omnibase_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'omnibase_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'omnibase_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'omnibase_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'omnibase_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'omnibase_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'omnibase_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.136s] DEBUG:colcon.colcon_core.verb:Building package 'omnibase_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/seth/omnibase_ws/build/omnibase_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/seth/omnibase_ws/install/omnibase_bringup', 'merge_install': False, 'path': '/home/seth/omnibase_ws/src/omnibase_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.137s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.137s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.137s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/seth/omnibase_ws/src/omnibase_description' with build type 'ament_cmake'
+[0.137s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/seth/omnibase_ws/src/omnibase_description'
+[0.138s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.138s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.139s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.141s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/seth/omnibase_ws/src/omnibase_control' with build type 'ament_python'
+[0.142s] Level 1:colcon.colcon_core.shell:create_environment_hook('omnibase_control', 'ament_prefix_path')
+[0.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seth/omnibase_ws/install/omnibase_control/share/omnibase_control/hook/ament_prefix_path.ps1'
+[0.142s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/seth/omnibase_ws/install/omnibase_control/share/omnibase_control/hook/ament_prefix_path.dsv'
+[0.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seth/omnibase_ws/install/omnibase_control/share/omnibase_control/hook/ament_prefix_path.sh'
+[0.143s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.143s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.145s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/seth/omnibase_ws/src/omnibase_vision' with build type 'ament_python'
+[0.145s] Level 1:colcon.colcon_core.shell:create_environment_hook('omnibase_vision', 'ament_prefix_path')
+[0.145s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seth/omnibase_ws/install/omnibase_vision/share/omnibase_vision/hook/ament_prefix_path.ps1'
+[0.146s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/seth/omnibase_ws/install/omnibase_vision/share/omnibase_vision/hook/ament_prefix_path.dsv'
+[0.146s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seth/omnibase_ws/install/omnibase_vision/share/omnibase_vision/hook/ament_prefix_path.sh'
+[0.146s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.146s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.163s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/seth/omnibase_ws/build/omnibase_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seth/omnibase_ws/install/omnibase_vision:/home/seth/omnibase_ws/install/omnibase_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/seth/omnibase_ws/build/omnibase_description -- -j12 -l12
+[0.282s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/seth/omnibase_ws/src/omnibase_control'
+[0.282s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.282s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.287s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/seth/omnibase_ws/build/omnibase_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seth/omnibase_ws/install/omnibase_vision:/home/seth/omnibase_ws/install/omnibase_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/seth/omnibase_ws/build/omnibase_description -- -j12 -l12
+[0.297s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/seth/omnibase_ws/build/omnibase_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seth/omnibase_ws/install/omnibase_vision:/home/seth/omnibase_ws/install/omnibase_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/seth/omnibase_ws/build/omnibase_description
+[0.413s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/seth/omnibase_ws/src/omnibase_vision'
+[0.414s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.414s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.419s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(omnibase_description)
+[0.419s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/seth/omnibase_ws/build/omnibase_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seth/omnibase_ws/install/omnibase_vision:/home/seth/omnibase_ws/install/omnibase_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/seth/omnibase_ws/build/omnibase_description
+[0.420s] Level 1:colcon.colcon_core.environment:checking '/home/seth/omnibase_ws/install/omnibase_description' for CMake module files
+[0.420s] Level 1:colcon.colcon_core.environment:checking '/home/seth/omnibase_ws/install/omnibase_description' for CMake config files
+[0.420s] Level 1:colcon.colcon_core.shell:create_environment_hook('omnibase_description', 'cmake_prefix_path')
+[0.421s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seth/omnibase_ws/install/omnibase_description/share/omnibase_description/hook/cmake_prefix_path.ps1'
+[0.421s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/seth/omnibase_ws/install/omnibase_description/share/omnibase_description/hook/cmake_prefix_path.dsv'
+[0.421s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seth/omnibase_ws/install/omnibase_description/share/omnibase_description/hook/cmake_prefix_path.sh'
+[0.421s] Level 1:colcon.colcon_core.environment:checking '/home/seth/omnibase_ws/install/omnibase_description/bin'
+[0.421s] Level 1:colcon.colcon_core.environment:checking '/home/seth/omnibase_ws/install/omnibase_description/lib/pkgconfig/omnibase_description.pc'
+[0.422s] Level 1:colcon.colcon_core.environment:checking '/home/seth/omnibase_ws/install/omnibase_description/lib/python3.12/site-packages'
+[0.422s] Level 1:colcon.colcon_core.environment:checking '/home/seth/omnibase_ws/install/omnibase_description/bin'
+[0.422s] INFO:colcon.colcon_core.shell:Creating package script '/home/seth/omnibase_ws/install/omnibase_description/share/omnibase_description/package.ps1'
+[0.422s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/seth/omnibase_ws/install/omnibase_description/share/omnibase_description/package.dsv'
+[0.423s] INFO:colcon.colcon_core.shell:Creating package script '/home/seth/omnibase_ws/install/omnibase_description/share/omnibase_description/package.sh'
+[0.423s] INFO:colcon.colcon_core.shell:Creating package script '/home/seth/omnibase_ws/install/omnibase_description/share/omnibase_description/package.bash'
+[0.423s] INFO:colcon.colcon_core.shell:Creating package script '/home/seth/omnibase_ws/install/omnibase_description/share/omnibase_description/package.zsh'
+[0.423s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/seth/omnibase_ws/install/omnibase_description/share/colcon-core/packages/omnibase_description)
+[0.424s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(omnibase_description)
+[0.424s] Level 1:colcon.colcon_core.environment:checking '/home/seth/omnibase_ws/install/omnibase_description' for CMake module files
+[0.424s] Level 1:colcon.colcon_core.environment:checking '/home/seth/omnibase_ws/install/omnibase_description' for CMake config files
+[0.424s] Level 1:colcon.colcon_core.shell:create_environment_hook('omnibase_description', 'cmake_prefix_path')
+[0.424s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seth/omnibase_ws/install/omnibase_description/share/omnibase_description/hook/cmake_prefix_path.ps1'
+[0.424s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/seth/omnibase_ws/install/omnibase_description/share/omnibase_description/hook/cmake_prefix_path.dsv'
+[0.425s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seth/omnibase_ws/install/omnibase_description/share/omnibase_description/hook/cmake_prefix_path.sh'
+[0.425s] Level 1:colcon.colcon_core.environment:checking '/home/seth/omnibase_ws/install/omnibase_description/bin'
+[0.425s] Level 1:colcon.colcon_core.environment:checking '/home/seth/omnibase_ws/install/omnibase_description/lib/pkgconfig/omnibase_description.pc'
+[0.425s] Level 1:colcon.colcon_core.environment:checking '/home/seth/omnibase_ws/install/omnibase_description/lib/python3.12/site-packages'
+[0.425s] Level 1:colcon.colcon_core.environment:checking '/home/seth/omnibase_ws/install/omnibase_description/bin'
+[0.425s] INFO:colcon.colcon_core.shell:Creating package script '/home/seth/omnibase_ws/install/omnibase_description/share/omnibase_description/package.ps1'
+[0.425s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/seth/omnibase_ws/install/omnibase_description/share/omnibase_description/package.dsv'
+[0.426s] INFO:colcon.colcon_core.shell:Creating package script '/home/seth/omnibase_ws/install/omnibase_description/share/omnibase_description/package.sh'
+[0.426s] INFO:colcon.colcon_core.shell:Creating package script '/home/seth/omnibase_ws/install/omnibase_description/share/omnibase_description/package.bash'
+[0.426s] INFO:colcon.colcon_core.shell:Creating package script '/home/seth/omnibase_ws/install/omnibase_description/share/omnibase_description/package.zsh'
+[0.426s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/seth/omnibase_ws/install/omnibase_description/share/colcon-core/packages/omnibase_description)
+[0.427s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/seth/omnibase_ws/src/omnibase_gazebo' with build type 'ament_cmake'
+[0.427s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/seth/omnibase_ws/src/omnibase_gazebo'
+[0.427s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.427s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.432s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/seth/omnibase_ws/build/omnibase_gazebo': CMAKE_PREFIX_PATH=/home/seth/omnibase_ws/install/omnibase_description:/home/seth/omnibase_ws/install/omnibase_bringup:/home/seth/omnibase_ws/install/omnibase_gazebo:/home/seth/mecanum_ws/install/mecanum_base_sim:/home/seth/mecanum_ws/install/mecanum_base_description:/home/seth/mecanum_ws/install/mecanum_base_controller:/home/seth/mecanum_ws/install/mecanum_base_bringup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/seth/omnibase_ws/install/omnibase_vision:/home/seth/omnibase_ws/install/omnibase_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/seth/omnibase_ws/build/omnibase_gazebo -- -j12 -l12
+[0.462s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/seth/omnibase_ws/build/omnibase_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/seth/omnibase_ws/install/omnibase_description:/home/seth/omnibase_ws/install/omnibase_bringup:/home/seth/omnibase_ws/install/omnibase_gazebo:/home/seth/mecanum_ws/install/mecanum_base_sim:/home/seth/mecanum_ws/install/mecanum_base_description:/home/seth/mecanum_ws/install/mecanum_base_controller:/home/seth/mecanum_ws/install/mecanum_base_bringup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/seth/omnibase_ws/install/omnibase_vision:/home/seth/omnibase_ws/install/omnibase_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/seth/omnibase_ws/build/omnibase_gazebo -- -j12 -l12
+[0.463s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/seth/omnibase_ws/build/omnibase_gazebo': CMAKE_PREFIX_PATH=/home/seth/omnibase_ws/install/omnibase_description:/home/seth/omnibase_ws/install/omnibase_bringup:/home/seth/omnibase_ws/install/omnibase_gazebo:/home/seth/mecanum_ws/install/mecanum_base_sim:/home/seth/mecanum_ws/install/mecanum_base_description:/home/seth/mecanum_ws/install/mecanum_base_controller:/home/seth/mecanum_ws/install/mecanum_base_bringup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/seth/omnibase_ws/install/omnibase_vision:/home/seth/omnibase_ws/install/omnibase_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/seth/omnibase_ws/build/omnibase_gazebo
+[0.479s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(omnibase_gazebo)
+[0.479s] Level 1:colcon.colcon_core.environment:checking '/home/seth/omnibase_ws/install/omnibase_gazebo' for CMake module files
+[0.480s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/seth/omnibase_ws/build/omnibase_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/seth/omnibase_ws/install/omnibase_description:/home/seth/omnibase_ws/install/omnibase_bringup:/home/seth/omnibase_ws/install/omnibase_gazebo:/home/seth/mecanum_ws/install/mecanum_base_sim:/home/seth/mecanum_ws/install/mecanum_base_description:/home/seth/mecanum_ws/install/mecanum_base_controller:/home/seth/mecanum_ws/install/mecanum_base_bringup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/seth/omnibase_ws/install/omnibase_vision:/home/seth/omnibase_ws/install/omnibase_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/seth/omnibase_ws/build/omnibase_gazebo
+[0.480s] Level 1:colcon.colcon_core.environment:checking '/home/seth/omnibase_ws/install/omnibase_gazebo' for CMake config files
+[0.480s] Level 1:colcon.colcon_core.shell:create_environment_hook('omnibase_gazebo', 'cmake_prefix_path')
+[0.480s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seth/omnibase_ws/install/omnibase_gazebo/share/omnibase_gazebo/hook/cmake_prefix_path.ps1'
+[0.480s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/seth/omnibase_ws/install/omnibase_gazebo/share/omnibase_gazebo/hook/cmake_prefix_path.dsv'
+[0.481s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seth/omnibase_ws/install/omnibase_gazebo/share/omnibase_gazebo/hook/cmake_prefix_path.sh'
+[0.481s] Level 1:colcon.colcon_core.environment:checking '/home/seth/omnibase_ws/install/omnibase_gazebo/bin'
+[0.481s] Level 1:colcon.colcon_core.environment:checking '/home/seth/omnibase_ws/install/omnibase_gazebo/lib/pkgconfig/omnibase_gazebo.pc'
+[0.481s] Level 1:colcon.colcon_core.environment:checking '/home/seth/omnibase_ws/install/omnibase_gazebo/lib/python3.12/site-packages'
+[0.481s] Level 1:colcon.colcon_core.environment:checking '/home/seth/omnibase_ws/install/omnibase_gazebo/bin'
+[0.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/seth/omnibase_ws/install/omnibase_gazebo/share/omnibase_gazebo/package.ps1'
+[0.482s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/seth/omnibase_ws/install/omnibase_gazebo/share/omnibase_gazebo/package.dsv'
+[0.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/seth/omnibase_ws/install/omnibase_gazebo/share/omnibase_gazebo/package.sh'
+[0.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/seth/omnibase_ws/install/omnibase_gazebo/share/omnibase_gazebo/package.bash'
+[0.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/seth/omnibase_ws/install/omnibase_gazebo/share/omnibase_gazebo/package.zsh'
+[0.482s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/seth/omnibase_ws/install/omnibase_gazebo/share/colcon-core/packages/omnibase_gazebo)
+[0.483s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(omnibase_gazebo)
+[0.483s] Level 1:colcon.colcon_core.environment:checking '/home/seth/omnibase_ws/install/omnibase_gazebo' for CMake module files
+[0.483s] Level 1:colcon.colcon_core.environment:checking '/home/seth/omnibase_ws/install/omnibase_gazebo' for CMake config files
+[0.483s] Level 1:colcon.colcon_core.shell:create_environment_hook('omnibase_gazebo', 'cmake_prefix_path')
+[0.483s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seth/omnibase_ws/install/omnibase_gazebo/share/omnibase_gazebo/hook/cmake_prefix_path.ps1'
+[0.483s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/seth/omnibase_ws/install/omnibase_gazebo/share/omnibase_gazebo/hook/cmake_prefix_path.dsv'
+[0.484s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seth/omnibase_ws/install/omnibase_gazebo/share/omnibase_gazebo/hook/cmake_prefix_path.sh'
+[0.484s] Level 1:colcon.colcon_core.environment:checking '/home/seth/omnibase_ws/install/omnibase_gazebo/bin'
+[0.484s] Level 1:colcon.colcon_core.environment:checking '/home/seth/omnibase_ws/install/omnibase_gazebo/lib/pkgconfig/omnibase_gazebo.pc'
+[0.484s] Level 1:colcon.colcon_core.environment:checking '/home/seth/omnibase_ws/install/omnibase_gazebo/lib/python3.12/site-packages'
+[0.484s] Level 1:colcon.colcon_core.environment:checking '/home/seth/omnibase_ws/install/omnibase_gazebo/bin'
+[0.484s] INFO:colcon.colcon_core.shell:Creating package script '/home/seth/omnibase_ws/install/omnibase_gazebo/share/omnibase_gazebo/package.ps1'
+[0.485s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/seth/omnibase_ws/install/omnibase_gazebo/share/omnibase_gazebo/package.dsv'
+[0.485s] INFO:colcon.colcon_core.shell:Creating package script '/home/seth/omnibase_ws/install/omnibase_gazebo/share/omnibase_gazebo/package.sh'
+[0.485s] INFO:colcon.colcon_core.shell:Creating package script '/home/seth/omnibase_ws/install/omnibase_gazebo/share/omnibase_gazebo/package.bash'
+[0.485s] INFO:colcon.colcon_core.shell:Creating package script '/home/seth/omnibase_ws/install/omnibase_gazebo/share/omnibase_gazebo/package.zsh'
+[0.485s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/seth/omnibase_ws/install/omnibase_gazebo/share/colcon-core/packages/omnibase_gazebo)
+[0.692s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/seth/omnibase_ws/build/omnibase_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/seth/omnibase_ws/build/omnibase_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seth/omnibase_ws/install/omnibase_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/seth/omnibase_ws/build/omnibase_control/build --no-deps symlink_data
+[0.699s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/seth/omnibase_ws/build/omnibase_vision': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/seth/omnibase_ws/build/omnibase_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seth/omnibase_ws/install/omnibase_vision/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/seth/omnibase_ws/build/omnibase_vision/build --no-deps symlink_data
+[0.966s] Level 1:colcon.colcon_core.shell:create_environment_hook('omnibase_control', 'pythonpath_develop')
+[0.966s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seth/omnibase_ws/build/omnibase_control/share/omnibase_control/hook/pythonpath_develop.ps1'
+[0.967s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/seth/omnibase_ws/build/omnibase_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/seth/omnibase_ws/build/omnibase_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seth/omnibase_ws/install/omnibase_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/seth/omnibase_ws/build/omnibase_control/build --no-deps symlink_data
+[0.967s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/seth/omnibase_ws/build/omnibase_control/share/omnibase_control/hook/pythonpath_develop.dsv'
+[0.967s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seth/omnibase_ws/build/omnibase_control/share/omnibase_control/hook/pythonpath_develop.sh'
+[0.968s] Level 1:colcon.colcon_core.environment:checking '/home/seth/omnibase_ws/install/omnibase_control' for CMake module files
+[0.968s] Level 1:colcon.colcon_core.environment:checking '/home/seth/omnibase_ws/install/omnibase_control' for CMake config files
+[0.968s] Level 1:colcon.colcon_core.environment:checking '/home/seth/omnibase_ws/install/omnibase_control/lib'
+[0.968s] Level 1:colcon.colcon_core.environment:checking '/home/seth/omnibase_ws/install/omnibase_control/bin'
+[0.968s] Level 1:colcon.colcon_core.environment:checking '/home/seth/omnibase_ws/install/omnibase_control/lib/pkgconfig/omnibase_control.pc'
+[0.969s] Level 1:colcon.colcon_core.environment:checking '/home/seth/omnibase_ws/install/omnibase_control/lib/python3.12/site-packages'
+[0.969s] Level 1:colcon.colcon_core.shell:create_environment_hook('omnibase_control', 'pythonpath')
+[0.969s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seth/omnibase_ws/install/omnibase_control/share/omnibase_control/hook/pythonpath.ps1'
+[0.969s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/seth/omnibase_ws/install/omnibase_control/share/omnibase_control/hook/pythonpath.dsv'
+[0.969s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seth/omnibase_ws/install/omnibase_control/share/omnibase_control/hook/pythonpath.sh'
+[0.970s] Level 1:colcon.colcon_core.environment:checking '/home/seth/omnibase_ws/install/omnibase_control/bin'
+[0.970s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(omnibase_control)
+[0.970s] INFO:colcon.colcon_core.shell:Creating package script '/home/seth/omnibase_ws/install/omnibase_control/share/omnibase_control/package.ps1'
+[0.970s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/seth/omnibase_ws/install/omnibase_control/share/omnibase_control/package.dsv'
+[0.970s] INFO:colcon.colcon_core.shell:Creating package script '/home/seth/omnibase_ws/install/omnibase_control/share/omnibase_control/package.sh'
+[0.971s] INFO:colcon.colcon_core.shell:Creating package script '/home/seth/omnibase_ws/install/omnibase_control/share/omnibase_control/package.bash'
+[0.971s] INFO:colcon.colcon_core.shell:Creating package script '/home/seth/omnibase_ws/install/omnibase_control/share/omnibase_control/package.zsh'
+[0.971s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/seth/omnibase_ws/install/omnibase_control/share/colcon-core/packages/omnibase_control)
+[0.976s] Level 1:colcon.colcon_core.shell:create_environment_hook('omnibase_vision', 'pythonpath_develop')
+[0.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seth/omnibase_ws/build/omnibase_vision/share/omnibase_vision/hook/pythonpath_develop.ps1'
+[0.976s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/seth/omnibase_ws/build/omnibase_vision' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/seth/omnibase_ws/build/omnibase_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seth/omnibase_ws/install/omnibase_vision/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/seth/omnibase_ws/build/omnibase_vision/build --no-deps symlink_data
+[0.976s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/seth/omnibase_ws/build/omnibase_vision/share/omnibase_vision/hook/pythonpath_develop.dsv'
+[0.977s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seth/omnibase_ws/build/omnibase_vision/share/omnibase_vision/hook/pythonpath_develop.sh'
+[0.977s] Level 1:colcon.colcon_core.environment:checking '/home/seth/omnibase_ws/install/omnibase_vision' for CMake module files
+[0.977s] Level 1:colcon.colcon_core.environment:checking '/home/seth/omnibase_ws/install/omnibase_vision' for CMake config files
+[0.977s] Level 1:colcon.colcon_core.environment:checking '/home/seth/omnibase_ws/install/omnibase_vision/lib'
+[0.977s] Level 1:colcon.colcon_core.environment:checking '/home/seth/omnibase_ws/install/omnibase_vision/bin'
+[0.977s] Level 1:colcon.colcon_core.environment:checking '/home/seth/omnibase_ws/install/omnibase_vision/lib/pkgconfig/omnibase_vision.pc'
+[0.978s] Level 1:colcon.colcon_core.environment:checking '/home/seth/omnibase_ws/install/omnibase_vision/lib/python3.12/site-packages'
+[0.978s] Level 1:colcon.colcon_core.shell:create_environment_hook('omnibase_vision', 'pythonpath')
+[0.978s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seth/omnibase_ws/install/omnibase_vision/share/omnibase_vision/hook/pythonpath.ps1'
+[0.978s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/seth/omnibase_ws/install/omnibase_vision/share/omnibase_vision/hook/pythonpath.dsv'
+[0.978s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seth/omnibase_ws/install/omnibase_vision/share/omnibase_vision/hook/pythonpath.sh'
+[0.978s] Level 1:colcon.colcon_core.environment:checking '/home/seth/omnibase_ws/install/omnibase_vision/bin'
+[0.978s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(omnibase_vision)
+[0.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/seth/omnibase_ws/install/omnibase_vision/share/omnibase_vision/package.ps1'
+[0.979s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/seth/omnibase_ws/install/omnibase_vision/share/omnibase_vision/package.dsv'
+[0.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/seth/omnibase_ws/install/omnibase_vision/share/omnibase_vision/package.sh'
+[0.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/seth/omnibase_ws/install/omnibase_vision/share/omnibase_vision/package.bash'
+[0.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/seth/omnibase_ws/install/omnibase_vision/share/omnibase_vision/package.zsh'
+[0.980s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/seth/omnibase_ws/install/omnibase_vision/share/colcon-core/packages/omnibase_vision)
+[0.980s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/seth/omnibase_ws/src/omnibase_bringup' with build type 'ament_cmake'
+[0.980s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/seth/omnibase_ws/src/omnibase_bringup'
+[0.980s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.980s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.988s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/seth/omnibase_ws/build/omnibase_bringup': AMENT_PREFIX_PATH=/home/seth/omnibase_ws/install/omnibase_vision:/home/seth/omnibase_ws/install/omnibase_control:/home/seth/omnibase_ws/install/omnibase_bringup:/home/seth/omnibase_ws/install/omnibase_gazebo:/home/seth/omnibase_ws/install/omnibase_description:/home/seth/mecanum_ws/install/mecanum_base_sim:/home/seth/mecanum_ws/install/mecanum_base_description:/home/seth/mecanum_ws/install/mecanum_base_controller:/home/seth/mecanum_ws/install/mecanum_base_bringup:/opt/ros/jazzy CMAKE_PREFIX_PATH=/home/seth/omnibase_ws/install/omnibase_gazebo:/home/seth/omnibase_ws/install/omnibase_description:/home/seth/omnibase_ws/install/omnibase_bringup:/home/seth/mecanum_ws/install/mecanum_base_sim:/home/seth/mecanum_ws/install/mecanum_base_description:/home/seth/mecanum_ws/install/mecanum_base_controller:/home/seth/mecanum_ws/install/mecanum_base_bringup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/seth/omnibase_ws/install/omnibase_vision:/home/seth/omnibase_ws/install/omnibase_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/seth/omnibase_ws/build/omnibase_bringup -- -j12 -l12
+[1.015s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/seth/omnibase_ws/build/omnibase_bringup' returned '0': AMENT_PREFIX_PATH=/home/seth/omnibase_ws/install/omnibase_vision:/home/seth/omnibase_ws/install/omnibase_control:/home/seth/omnibase_ws/install/omnibase_bringup:/home/seth/omnibase_ws/install/omnibase_gazebo:/home/seth/omnibase_ws/install/omnibase_description:/home/seth/mecanum_ws/install/mecanum_base_sim:/home/seth/mecanum_ws/install/mecanum_base_description:/home/seth/mecanum_ws/install/mecanum_base_controller:/home/seth/mecanum_ws/install/mecanum_base_bringup:/opt/ros/jazzy CMAKE_PREFIX_PATH=/home/seth/omnibase_ws/install/omnibase_gazebo:/home/seth/omnibase_ws/install/omnibase_description:/home/seth/omnibase_ws/install/omnibase_bringup:/home/seth/mecanum_ws/install/mecanum_base_sim:/home/seth/mecanum_ws/install/mecanum_base_description:/home/seth/mecanum_ws/install/mecanum_base_controller:/home/seth/mecanum_ws/install/mecanum_base_bringup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/seth/omnibase_ws/install/omnibase_vision:/home/seth/omnibase_ws/install/omnibase_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/seth/omnibase_ws/build/omnibase_bringup -- -j12 -l12
+[1.015s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/seth/omnibase_ws/build/omnibase_bringup': AMENT_PREFIX_PATH=/home/seth/omnibase_ws/install/omnibase_vision:/home/seth/omnibase_ws/install/omnibase_control:/home/seth/omnibase_ws/install/omnibase_bringup:/home/seth/omnibase_ws/install/omnibase_gazebo:/home/seth/omnibase_ws/install/omnibase_description:/home/seth/mecanum_ws/install/mecanum_base_sim:/home/seth/mecanum_ws/install/mecanum_base_description:/home/seth/mecanum_ws/install/mecanum_base_controller:/home/seth/mecanum_ws/install/mecanum_base_bringup:/opt/ros/jazzy CMAKE_PREFIX_PATH=/home/seth/omnibase_ws/install/omnibase_gazebo:/home/seth/omnibase_ws/install/omnibase_description:/home/seth/omnibase_ws/install/omnibase_bringup:/home/seth/mecanum_ws/install/mecanum_base_sim:/home/seth/mecanum_ws/install/mecanum_base_description:/home/seth/mecanum_ws/install/mecanum_base_controller:/home/seth/mecanum_ws/install/mecanum_base_bringup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/seth/omnibase_ws/install/omnibase_vision:/home/seth/omnibase_ws/install/omnibase_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/seth/omnibase_ws/build/omnibase_bringup
+[1.029s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(omnibase_bringup)
+[1.029s] Level 1:colcon.colcon_core.environment:checking '/home/seth/omnibase_ws/install/omnibase_bringup' for CMake module files
+[1.029s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/seth/omnibase_ws/build/omnibase_bringup' returned '0': AMENT_PREFIX_PATH=/home/seth/omnibase_ws/install/omnibase_vision:/home/seth/omnibase_ws/install/omnibase_control:/home/seth/omnibase_ws/install/omnibase_bringup:/home/seth/omnibase_ws/install/omnibase_gazebo:/home/seth/omnibase_ws/install/omnibase_description:/home/seth/mecanum_ws/install/mecanum_base_sim:/home/seth/mecanum_ws/install/mecanum_base_description:/home/seth/mecanum_ws/install/mecanum_base_controller:/home/seth/mecanum_ws/install/mecanum_base_bringup:/opt/ros/jazzy CMAKE_PREFIX_PATH=/home/seth/omnibase_ws/install/omnibase_gazebo:/home/seth/omnibase_ws/install/omnibase_description:/home/seth/omnibase_ws/install/omnibase_bringup:/home/seth/mecanum_ws/install/mecanum_base_sim:/home/seth/mecanum_ws/install/mecanum_base_description:/home/seth/mecanum_ws/install/mecanum_base_controller:/home/seth/mecanum_ws/install/mecanum_base_bringup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/seth/omnibase_ws/install/omnibase_vision:/home/seth/omnibase_ws/install/omnibase_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/seth/omnibase_ws/build/omnibase_bringup
+[1.029s] Level 1:colcon.colcon_core.environment:checking '/home/seth/omnibase_ws/install/omnibase_bringup' for CMake config files
+[1.029s] Level 1:colcon.colcon_core.shell:create_environment_hook('omnibase_bringup', 'cmake_prefix_path')
+[1.029s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seth/omnibase_ws/install/omnibase_bringup/share/omnibase_bringup/hook/cmake_prefix_path.ps1'
+[1.030s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/seth/omnibase_ws/install/omnibase_bringup/share/omnibase_bringup/hook/cmake_prefix_path.dsv'
+[1.030s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seth/omnibase_ws/install/omnibase_bringup/share/omnibase_bringup/hook/cmake_prefix_path.sh'
+[1.030s] Level 1:colcon.colcon_core.environment:checking '/home/seth/omnibase_ws/install/omnibase_bringup/bin'
+[1.030s] Level 1:colcon.colcon_core.environment:checking '/home/seth/omnibase_ws/install/omnibase_bringup/lib/pkgconfig/omnibase_bringup.pc'
+[1.030s] Level 1:colcon.colcon_core.environment:checking '/home/seth/omnibase_ws/install/omnibase_bringup/lib/python3.12/site-packages'
+[1.030s] Level 1:colcon.colcon_core.environment:checking '/home/seth/omnibase_ws/install/omnibase_bringup/bin'
+[1.031s] INFO:colcon.colcon_core.shell:Creating package script '/home/seth/omnibase_ws/install/omnibase_bringup/share/omnibase_bringup/package.ps1'
+[1.031s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/seth/omnibase_ws/install/omnibase_bringup/share/omnibase_bringup/package.dsv'
+[1.031s] INFO:colcon.colcon_core.shell:Creating package script '/home/seth/omnibase_ws/install/omnibase_bringup/share/omnibase_bringup/package.sh'
+[1.031s] INFO:colcon.colcon_core.shell:Creating package script '/home/seth/omnibase_ws/install/omnibase_bringup/share/omnibase_bringup/package.bash'
+[1.031s] INFO:colcon.colcon_core.shell:Creating package script '/home/seth/omnibase_ws/install/omnibase_bringup/share/omnibase_bringup/package.zsh'
+[1.031s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/seth/omnibase_ws/install/omnibase_bringup/share/colcon-core/packages/omnibase_bringup)
+[1.032s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(omnibase_bringup)
+[1.032s] Level 1:colcon.colcon_core.environment:checking '/home/seth/omnibase_ws/install/omnibase_bringup' for CMake module files
+[1.032s] Level 1:colcon.colcon_core.environment:checking '/home/seth/omnibase_ws/install/omnibase_bringup' for CMake config files
+[1.032s] Level 1:colcon.colcon_core.shell:create_environment_hook('omnibase_bringup', 'cmake_prefix_path')
+[1.032s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seth/omnibase_ws/install/omnibase_bringup/share/omnibase_bringup/hook/cmake_prefix_path.ps1'
+[1.075s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/seth/omnibase_ws/install/omnibase_bringup/share/omnibase_bringup/hook/cmake_prefix_path.dsv'
+[1.075s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seth/omnibase_ws/install/omnibase_bringup/share/omnibase_bringup/hook/cmake_prefix_path.sh'
+[1.075s] Level 1:colcon.colcon_core.environment:checking '/home/seth/omnibase_ws/install/omnibase_bringup/bin'
+[1.076s] Level 1:colcon.colcon_core.environment:checking '/home/seth/omnibase_ws/install/omnibase_bringup/lib/pkgconfig/omnibase_bringup.pc'
+[1.076s] Level 1:colcon.colcon_core.environment:checking '/home/seth/omnibase_ws/install/omnibase_bringup/lib/python3.12/site-packages'
+[1.076s] Level 1:colcon.colcon_core.environment:checking '/home/seth/omnibase_ws/install/omnibase_bringup/bin'
+[1.076s] INFO:colcon.colcon_core.shell:Creating package script '/home/seth/omnibase_ws/install/omnibase_bringup/share/omnibase_bringup/package.ps1'
+[1.076s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/seth/omnibase_ws/install/omnibase_bringup/share/omnibase_bringup/package.dsv'
+[1.076s] INFO:colcon.colcon_core.shell:Creating package script '/home/seth/omnibase_ws/install/omnibase_bringup/share/omnibase_bringup/package.sh'
+[1.077s] INFO:colcon.colcon_core.shell:Creating package script '/home/seth/omnibase_ws/install/omnibase_bringup/share/omnibase_bringup/package.bash'
+[1.077s] INFO:colcon.colcon_core.shell:Creating package script '/home/seth/omnibase_ws/install/omnibase_bringup/share/omnibase_bringup/package.zsh'
+[1.077s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/seth/omnibase_ws/install/omnibase_bringup/share/colcon-core/packages/omnibase_bringup)
+[1.077s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.077s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.077s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.077s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.081s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.081s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.081s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.088s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.088s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/seth/omnibase_ws/install/local_setup.ps1'
+[1.088s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/seth/omnibase_ws/install/_local_setup_util_ps1.py'
+[1.089s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/seth/omnibase_ws/install/setup.ps1'
+[1.090s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/seth/omnibase_ws/install/local_setup.sh'
+[1.090s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/seth/omnibase_ws/install/_local_setup_util_sh.py'
+[1.090s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/seth/omnibase_ws/install/setup.sh'
+[1.091s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/seth/omnibase_ws/install/local_setup.bash'
+[1.091s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/seth/omnibase_ws/install/setup.bash'
+[1.092s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/seth/omnibase_ws/install/local_setup.zsh'
+[1.092s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/seth/omnibase_ws/install/setup.zsh'

@@ -1,0 +1,18 @@
+[0.554s] Invoking command in '/home/seth/omnibase_ws/build/omnibase_vision': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/seth/omnibase_ws/build/omnibase_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seth/omnibase_ws/install/omnibase_vision/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/seth/omnibase_ws/build/omnibase_vision/build --no-deps symlink_data
+[0.707s] running develop
+[0.790s] running egg_info
+[0.797s] writing omnibase_vision.egg-info/PKG-INFO
+[0.797s] writing dependency_links to omnibase_vision.egg-info/dependency_links.txt
+[0.797s] writing entry points to omnibase_vision.egg-info/entry_points.txt
+[0.798s] writing requirements to omnibase_vision.egg-info/requires.txt
+[0.798s] writing top-level names to omnibase_vision.egg-info/top_level.txt
+[0.814s] reading manifest file 'omnibase_vision.egg-info/SOURCES.txt'
+[0.814s] writing manifest file 'omnibase_vision.egg-info/SOURCES.txt'
+[0.823s] running build_ext
+[0.823s] Creating /home/seth/omnibase_ws/install/omnibase_vision/lib/python3.12/site-packages/omnibase-vision.egg-link (link to .)
+[0.823s] Installing base_tracker script to /home/seth/omnibase_ws/install/omnibase_vision/lib/omnibase_vision
+[0.823s] Installing led_detector script to /home/seth/omnibase_ws/install/omnibase_vision/lib/omnibase_vision
+[0.823s] 
+[0.823s] Installed /home/seth/omnibase_ws/build/omnibase_vision
+[0.823s] running symlink_data
+[0.843s] Invoked command in '/home/seth/omnibase_ws/build/omnibase_vision' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/seth/omnibase_ws/build/omnibase_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seth/omnibase_ws/install/omnibase_vision/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/seth/omnibase_ws/build/omnibase_vision/build --no-deps symlink_data

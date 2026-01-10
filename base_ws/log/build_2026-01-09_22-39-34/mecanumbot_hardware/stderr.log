@@ -1,0 +1,21 @@
+In file included from [01m[K/home/seth/base_ws/src/ros2-mecanum-bot/mecanumbot_hardware/src/mecanumbot_hardware.cpp:9[m[K:
+[01m[K/home/seth/base_ws/src/ros2-mecanum-bot/mecanumbot_hardware/include/mecanumbot_hardware/mecanumbot_hardware.hpp:7:10:[m[K [01;31m[Kfatal error: [m[Khardware_interface/visibility_control.h: No such file or directory
+    7 | #include [01;31m[K<hardware_interface/visibility_control.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/mecanumbot_hardware.dir/build.make:76: CMakeFiles/mecanumbot_hardware.dir/src/mecanumbot_hardware.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[01m[K/home/seth/base_ws/src/ros2-mecanum-bot/mecanumbot_hardware/src/mecanumbot_serial_port.cpp:[m[K In member function ‘[01m[Kdebict::mecanumbot::hardware::return_type debict::mecanumbot::hardware::MecanumbotSerialPort::read_frames(std::vector<debict::mecanumbot::hardware::SerialHdlcFrame>&)[m[K’:
+[01m[K/home/seth/base_ws/src/ros2-mecanum-bot/mecanumbot_hardware/src/mecanumbot_serial_port.cpp:93:37:[m[K [01;35m[Kwarning: [m[K‘[01m[Kssize_t read(int, void*, size_t)[m[K’ writing 256 bytes into a region of size 200 overflows the destination [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wstringop-overflow=-Wstringop-overflow=]8;;[m[K]
+   93 |     const ssize_t num_bytes = [01;35m[K::read(serial_port_, rx_buffer_, 256)[m[K;
+      |                               [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/seth/base_ws/src/ros2-mecanum-bot/mecanumbot_hardware/src/mecanumbot_serial_port.cpp:10[m[K:
+[01m[K/home/seth/base_ws/src/ros2-mecanum-bot/mecanumbot_hardware/include/mecanumbot_hardware/mecanumbot_serial_port.hpp:48:25:[m[K [01;36m[Knote: [m[Kdestination object ‘[01m[Kdebict::mecanumbot::hardware::MecanumbotSerialPort::rx_buffer_[m[K’ of size 200
+   48 |                 uint8_t [01;36m[Krx_buffer_[m[K[MECANUMBOT_SERIAL_BUFFER_MAX_SIZE];
+      |                         [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/seth/base_ws/src/ros2-mecanum-bot/mecanumbot_hardware/src/mecanumbot_serial_port.cpp:7[m[K:
+[01m[K/usr/include/unistd.h:371:16:[m[K [01;36m[Knote: [m[Kin a call to function ‘[01m[Kssize_t read(int, void*, size_t)[m[K’ declared with attribute ‘[01m[Kaccess (write_only, 2, 3)[m[K’
+  371 | extern ssize_t [01;36m[Kread[m[K (int __fd, void *__buf, size_t __nbytes) __wur
+      |                [01;36m[K^~~~[m[K
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/mecanumbot_hardware.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,11 @@
+[0.014s] Invoking command in '/home/seth/base_ws/build/mecanumbot_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seth/omnibase_ws/install/omnibase_vision:/home/seth/omnibase_ws/install/omnibase_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/seth/base_ws/build/mecanumbot_hardware -- -j12 -l12
+[0.077s] [ 33%] [32mBuilding CXX object CMakeFiles/mecanumbot_hardware.dir/src/mecanumbot_hardware.cpp.o[0m
+[0.551s] In file included from [01m[K/home/seth/base_ws/src/ros2-mecanum-bot/mecanumbot_hardware/src/mecanumbot_hardware.cpp:9[m[K:
+[0.551s] [01m[K/home/seth/base_ws/src/ros2-mecanum-bot/mecanumbot_hardware/include/mecanumbot_hardware/mecanumbot_hardware.hpp:7:10:[m[K [01;31m[Kfatal error: [m[Khardware_interface/visibility_control.h: No such file or directory
+[0.551s]     7 | #include [01;31m[K<hardware_interface/visibility_control.h>[m[K
+[0.551s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.551s] compilation terminated.
+[0.556s] gmake[2]: *** [CMakeFiles/mecanumbot_hardware.dir/build.make:76: CMakeFiles/mecanumbot_hardware.dir/src/mecanumbot_hardware.cpp.o] Error 1
+[0.556s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/mecanumbot_hardware.dir/all] Error 2
+[0.556s] gmake: *** [Makefile:146: all] Error 2
+[0.558s] Invoked command in '/home/seth/base_ws/build/mecanumbot_hardware' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seth/omnibase_ws/install/omnibase_vision:/home/seth/omnibase_ws/install/omnibase_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/seth/base_ws/build/mecanumbot_hardware -- -j12 -l12

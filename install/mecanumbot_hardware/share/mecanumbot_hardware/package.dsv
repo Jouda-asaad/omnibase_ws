@@ -1,0 +1,5 @@
+source;share/mecanumbot_hardware/local_setup.bash
+source;share/mecanumbot_hardware/local_setup.dsv
+source;share/mecanumbot_hardware/local_setup.ps1
+source;share/mecanumbot_hardware/local_setup.sh
+source;share/mecanumbot_hardware/local_setup.zsh

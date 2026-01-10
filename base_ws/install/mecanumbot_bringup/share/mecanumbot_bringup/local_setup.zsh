@@ -1,0 +1,1 @@
+/home/seth/base_ws/build/mecanumbot_bringup/ament_cmake_environment_hooks/local_setup.zsh

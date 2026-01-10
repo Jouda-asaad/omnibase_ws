@@ -1,0 +1,37 @@
+[0.255s] Invoking command in '/home/seth/omnibase_ws/build/mecanumbot_teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seth/omnibase_ws/install/omnibase_vision:/home/seth/omnibase_ws/install/omnibase_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/seth/omnibase_ws/base_ws/src/ros2-mecanum-bot/mecanumbot_teleop -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/seth/omnibase_ws/install/mecanumbot_teleop
+[0.301s] -- The C compiler identification is GNU 11.5.0
+[0.345s] -- The CXX compiler identification is GNU 11.5.0
+[0.361s] -- Detecting C compiler ABI info
+[0.433s] -- Detecting C compiler ABI info - done
+[0.439s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.439s] -- Detecting C compile features
+[0.440s] -- Detecting C compile features - done
+[0.447s] -- Detecting CXX compiler ABI info
+[0.522s] -- Detecting CXX compiler ABI info - done
+[0.528s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.528s] -- Detecting CXX compile features
+[0.528s] -- Detecting CXX compile features - done
+[0.533s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.656s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.711s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.765s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.819s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.835s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.856s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.877s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.960s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.966s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.059s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.078s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.095s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.176s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.296s] -- Configuring done (1.0s)
+[1.325s] -- Generating done (0.0s)
+[1.333s] -- Build files have been written to: /home/seth/omnibase_ws/build/mecanumbot_teleop
+[1.366s] Invoked command in '/home/seth/omnibase_ws/build/mecanumbot_teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seth/omnibase_ws/install/omnibase_vision:/home/seth/omnibase_ws/install/omnibase_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/seth/omnibase_ws/base_ws/src/ros2-mecanum-bot/mecanumbot_teleop -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/seth/omnibase_ws/install/mecanumbot_teleop
+[1.369s] Invoking command in '/home/seth/omnibase_ws/build/mecanumbot_teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seth/omnibase_ws/install/omnibase_vision:/home/seth/omnibase_ws/install/omnibase_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/seth/omnibase_ws/build/mecanumbot_teleop -- -j12 -l12
+[1.445s] [ 25%] [32mBuilding CXX object CMakeFiles/mecanumbot_teleop.dir/src/mecanumbot_teleop.cpp.o[0m
+[1.445s] [ 50%] [32mBuilding CXX object CMakeFiles/mecanumbot_teleop.dir/src/node_main.cpp.o[0m
+[1.446s] [ 75%] [32mBuilding CXX object CMakeFiles/mecanumbot_teleop.dir/src/mecanumbot_joystick.cpp.o[0m
+[7.570s] [100%] [32m[1mLinking CXX executable mecanumbot_teleop[0m
+[7.763s] [100%] Built target mecanumbot_teleop

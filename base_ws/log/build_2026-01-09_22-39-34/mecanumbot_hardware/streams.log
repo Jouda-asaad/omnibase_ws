@@ -1,0 +1,60 @@
+[0.010s] Invoking command in '/home/seth/base_ws/build/mecanumbot_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seth/omnibase_ws/install/omnibase_vision:/home/seth/omnibase_ws/install/omnibase_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/seth/base_ws/src/ros2-mecanum-bot/mecanumbot_hardware -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/seth/base_ws/install/mecanumbot_hardware
+[0.061s] -- The C compiler identification is GNU 11.5.0
+[0.098s] -- The CXX compiler identification is GNU 11.5.0
+[0.109s] -- Detecting C compiler ABI info
+[0.170s] -- Detecting C compiler ABI info - done
+[0.176s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.176s] -- Detecting C compile features
+[0.176s] -- Detecting C compile features - done
+[0.182s] -- Detecting CXX compiler ABI info
+[0.255s] -- Detecting CXX compiler ABI info - done
+[0.263s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.264s] -- Detecting CXX compile features
+[0.264s] -- Detecting CXX compile features - done
+[0.268s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.383s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.432s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.476s] -- Found hardware_interface: 4.39.2 (/opt/ros/jazzy/share/hardware_interface/cmake)
+[0.522s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.534s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.548s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.562s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.722s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.760s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.763s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.783s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.829s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.831s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.842s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.844s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.850s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.857s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.127s] -- Configuring done (1.1s)
+[1.141s] -- Generating done (0.0s)
+[1.144s] -- Build files have been written to: /home/seth/base_ws/build/mecanumbot_hardware
+[1.155s] Invoked command in '/home/seth/base_ws/build/mecanumbot_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seth/omnibase_ws/install/omnibase_vision:/home/seth/omnibase_ws/install/omnibase_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/seth/base_ws/src/ros2-mecanum-bot/mecanumbot_hardware -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/seth/base_ws/install/mecanumbot_hardware
+[1.156s] Invoking command in '/home/seth/base_ws/build/mecanumbot_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seth/omnibase_ws/install/omnibase_vision:/home/seth/omnibase_ws/install/omnibase_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/seth/base_ws/build/mecanumbot_hardware -- -j12 -l12
+[1.208s] [ 66%] [32mBuilding CXX object CMakeFiles/mecanumbot_hardware.dir/src/mecanumbot_hardware.cpp.o[0m
+[1.208s] [ 66%] [32mBuilding CXX object CMakeFiles/mecanumbot_hardware.dir/src/mecanumbot_serial_port.cpp.o[0m
+[1.453s] In file included from [01m[K/home/seth/base_ws/src/ros2-mecanum-bot/mecanumbot_hardware/src/mecanumbot_hardware.cpp:9[m[K:
+[1.454s] [01m[K/home/seth/base_ws/src/ros2-mecanum-bot/mecanumbot_hardware/include/mecanumbot_hardware/mecanumbot_hardware.hpp:7:10:[m[K [01;31m[Kfatal error: [m[Khardware_interface/visibility_control.h: No such file or directory
+[1.454s]     7 | #include [01;31m[K<hardware_interface/visibility_control.h>[m[K
+[1.454s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.454s] compilation terminated.
+[1.456s] gmake[2]: *** [CMakeFiles/mecanumbot_hardware.dir/build.make:76: CMakeFiles/mecanumbot_hardware.dir/src/mecanumbot_hardware.cpp.o] Error 1
+[1.456s] gmake[2]: *** Waiting for unfinished jobs....
+[3.814s] [01m[K/home/seth/base_ws/src/ros2-mecanum-bot/mecanumbot_hardware/src/mecanumbot_serial_port.cpp:[m[K In member function ‘[01m[Kdebict::mecanumbot::hardware::return_type debict::mecanumbot::hardware::MecanumbotSerialPort::read_frames(std::vector<debict::mecanumbot::hardware::SerialHdlcFrame>&)[m[K’:
+[3.814s] [01m[K/home/seth/base_ws/src/ros2-mecanum-bot/mecanumbot_hardware/src/mecanumbot_serial_port.cpp:93:37:[m[K [01;35m[Kwarning: [m[K‘[01m[Kssize_t read(int, void*, size_t)[m[K’ writing 256 bytes into a region of size 200 overflows the destination [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wstringop-overflow=-Wstringop-overflow=]8;;[m[K]
+[3.814s]    93 |     const ssize_t num_bytes = [01;35m[K::read(serial_port_, rx_buffer_, 256)[m[K;
+[3.814s]       |                               [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.815s] In file included from [01m[K/home/seth/base_ws/src/ros2-mecanum-bot/mecanumbot_hardware/src/mecanumbot_serial_port.cpp:10[m[K:
+[3.815s] [01m[K/home/seth/base_ws/src/ros2-mecanum-bot/mecanumbot_hardware/include/mecanumbot_hardware/mecanumbot_serial_port.hpp:48:25:[m[K [01;36m[Knote: [m[Kdestination object ‘[01m[Kdebict::mecanumbot::hardware::MecanumbotSerialPort::rx_buffer_[m[K’ of size 200
+[3.815s]    48 |                 uint8_t [01;36m[Krx_buffer_[m[K[MECANUMBOT_SERIAL_BUFFER_MAX_SIZE];
+[3.815s]       |                         [01;36m[K^~~~~~~~~~[m[K
+[3.816s] In file included from [01m[K/home/seth/base_ws/src/ros2-mecanum-bot/mecanumbot_hardware/src/mecanumbot_serial_port.cpp:7[m[K:
+[3.816s] [01m[K/usr/include/unistd.h:371:16:[m[K [01;36m[Knote: [m[Kin a call to function ‘[01m[Kssize_t read(int, void*, size_t)[m[K’ declared with attribute ‘[01m[Kaccess (write_only, 2, 3)[m[K’
+[3.816s]   371 | extern ssize_t [01;36m[Kread[m[K (int __fd, void *__buf, size_t __nbytes) __wur
+[3.816s]       |                [01;36m[K^~~~[m[K
+[3.863s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/mecanumbot_hardware.dir/all] Error 2
+[3.863s] gmake: *** [Makefile:146: all] Error 2
+[3.865s] Invoked command in '/home/seth/base_ws/build/mecanumbot_hardware' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seth/omnibase_ws/install/omnibase_vision:/home/seth/omnibase_ws/install/omnibase_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/seth/base_ws/build/mecanumbot_hardware -- -j12 -l12

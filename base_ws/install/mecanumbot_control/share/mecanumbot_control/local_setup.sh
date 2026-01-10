@@ -1,0 +1,1 @@
+/home/seth/base_ws/build/mecanumbot_control/ament_cmake_environment_hooks/local_setup.sh

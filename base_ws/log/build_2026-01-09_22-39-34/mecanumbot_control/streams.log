@@ -1,0 +1,38 @@
+[0.014s] Invoking command in '/home/seth/base_ws/build/mecanumbot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seth/omnibase_ws/install/omnibase_vision:/home/seth/omnibase_ws/install/omnibase_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/seth/base_ws/src/ros2-mecanum-bot/mecanumbot_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/seth/base_ws/install/mecanumbot_control
+[0.056s] -- The C compiler identification is GNU 11.5.0
+[0.092s] -- The CXX compiler identification is GNU 11.5.0
+[0.106s] -- Detecting C compiler ABI info
+[0.168s] -- Detecting C compiler ABI info - done
+[0.173s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.173s] -- Detecting C compile features
+[0.173s] -- Detecting C compile features - done
+[0.180s] -- Detecting CXX compiler ABI info
+[0.252s] -- Detecting CXX compiler ABI info - done
+[0.259s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.259s] -- Detecting CXX compile features
+[0.260s] -- Detecting CXX compile features - done
+[0.264s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.381s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.429s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.473s] -- Found controller_manager: 4.39.2 (/opt/ros/jazzy/share/controller_manager/cmake)
+[0.523s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.535s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.548s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.563s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.622s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.625s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.691s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.707s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.722s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.218s] -- Configuring done (1.2s)
+[1.239s] -- Generating done (0.0s)
+[1.243s] -- Build files have been written to: /home/seth/base_ws/build/mecanumbot_control
+[1.255s] Invoked command in '/home/seth/base_ws/build/mecanumbot_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seth/omnibase_ws/install/omnibase_vision:/home/seth/omnibase_ws/install/omnibase_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/seth/base_ws/src/ros2-mecanum-bot/mecanumbot_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/seth/base_ws/install/mecanumbot_control
+[1.256s] Invoking command in '/home/seth/base_ws/build/mecanumbot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seth/omnibase_ws/install/omnibase_vision:/home/seth/omnibase_ws/install/omnibase_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/seth/base_ws/build/mecanumbot_control -- -j12 -l12
+[1.307s] [ 50%] [32mBuilding CXX object CMakeFiles/mecanumbot_control_node.dir/src/mecanumbot_control_node.cpp.o[0m
+[1.646s] In file included from [01m[K/home/seth/base_ws/src/ros2-mecanum-bot/mecanumbot_control/src/mecanumbot_control_node.cpp:4[m[K:
+[1.647s] [01m[K/opt/ros/jazzy/include/realtime_tools/realtime_tools/thread_priority.hpp:39:2:[m[K [01;35m[Kwarning: [m[K#warning "This header include is deprecated. Please update your code to use 'realtime_helpers.hpp' header and link against 'realtime_tools' library." [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[1.647s]    39 | #[01;35m[Kwarning[m[K \
+[1.647s]       |  [01;35m[K^~~~~~~[m[K
+[6.119s] [100%] [32m[1mLinking CXX executable mecanumbot_control_node[0m
+[6.265s] [100%] Built target mecanumbot_control_node

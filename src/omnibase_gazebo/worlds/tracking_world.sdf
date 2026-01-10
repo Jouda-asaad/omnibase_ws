@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<sdf version="1.9">
+  <world name="tracking_world">
+    
+    <!-- Physics -->
+    <physics name="1ms" type="ignored">
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1.0</real_time_factor>
+    </physics>
+    
+    <!-- Plugins -->
+    <plugin filename="gz-sim-physics-system" name="gz::sim::systems::Physics"/>
+    <plugin filename="gz-sim-user-commands-system" name="gz::sim::systems::UserCommands"/>
+    <plugin filename="gz-sim-scene-broadcaster-system" name="gz::sim::systems::SceneBroadcaster"/>
+    <plugin filename="gz-sim-apply-link-wrench-system" name="gz::sim::systems::ApplyLinkWrench"/>
+    <plugin filename="gz-sim-sensors-system" name="gz::sim::systems::Sensors">
+      <render_engine>ogre2</render_engine>
+    </plugin>
+    
+    <!-- Lighting -->
+    <light type="directional" name="sun">
+      <cast_shadows>true</cast_shadows>
+      <pose>0 0 10 0 0 0</pose>
+      <diffuse>0.8 0.8 0.8 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>-0.5 0.1 -0.9</direction>
+    </light>
+    
+    <!-- Ground Plane -->
+    <model name="ground_plane">
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+          <material>
+            <ambient>0.8 0.8 0.8 1</ambient>
+            <diffuse>0.8 0.8 0.8 1</diffuse>
+            <specular>0.8 0.8 0.8 1</specular>
+          </material>
+        </visual>
+      </link>
+    </model>
+    
+    <!-- UAV from Gazebo Fuel with velocity control -->
+    <include>
+      <uri>https://fuel.gazebosim.org/1.0/alipoorhoseini/models/CERBERUS_M100_SENSOR_CONFIG_1</uri>
+      <name>uav</name>
+      <pose>0 0 3 0 0 0</pose>
+      
+      <!-- Add velocity control plugin to enable teleop -->
+      <plugin filename="gz-sim-velocity-control-system" 
+              name="gz::sim::systems::VelocityControl">
+        <topic>/model/uav/cmd_vel</topic>
+        <initial_linear>0 0 0</initial_linear>
+        <initial_angular>0 0 0</initial_angular>
+      </plugin>
+    </include>
+    
+    <!-- Single Pink LED at center of UAV (well below base_link for visibility from below) -->
+    <model name="led_center">
+      <pose>0 0 2.75 0 0 0</pose>
+      <link name="led_link">
+        <inertial>
+          <mass>0.001</mass>
+          <inertia>
+            <ixx>0.000001</ixx><ixy>0</ixy><ixz>0</ixz>
+            <iyy>0.000001</iyy><iyz>0</iyz>
+            <izz>0.000001</izz>
+          </inertia>
+        </inertial>
+        <visual name="led_visual">
+          <geometry>
+            <sphere>
+              <radius>0.06</radius>
+            </sphere>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+            <specular>1 0.2 0.2 1</specular>
+            <emissive>1 0 0 1</emissive>
+          </material>
+        </visual>
+        <light name="led_light" type="point">
+          <diffuse>1 0 0 1</diffuse>
+          <attenuation>
+            <range>15</range>
+            <constant>0.1</constant>
+            <linear>0.03</linear>
+            <quadratic>0.005</quadratic>
+          </attenuation>
+          <cast_shadows>false</cast_shadows>
+        </light>
+      </link>
+    </model>
+    
+    <!-- Attach center LED to UAV -->
+    <joint name="led_center_joint" type="fixed">
+      <parent>uav::base_link</parent>
+      <child>led_center::led_link</child>
+    </joint>
+    
+  </world>
+</sdf>
