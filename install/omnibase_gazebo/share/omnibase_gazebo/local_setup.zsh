@@ -1,1 +1,0 @@
-/home/juds/omnibase_ws/build/omnibase_gazebo/ament_cmake_environment_hooks/local_setup.zsh
