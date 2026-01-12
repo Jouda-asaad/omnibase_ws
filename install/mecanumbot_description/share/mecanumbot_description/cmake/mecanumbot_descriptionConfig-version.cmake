@@ -1,1 +1,0 @@
-/home/seth/omnibase_ws/build/mecanumbot_description/ament_cmake_core/mecanumbot_descriptionConfig-version.cmake

@@ -1,1 +1,0 @@
-/home/seth/base_ws/src/ros2-mecanum-bot/mecanumbot_controller/include/mecanumbot_controller/mecanumbot_controller_compiler.h

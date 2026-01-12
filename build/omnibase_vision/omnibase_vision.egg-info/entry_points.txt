@@ -1,3 +1,0 @@
-[console_scripts]
-base_tracker = omnibase_vision.base_tracker:main
-led_detector = omnibase_vision.led_detector:main

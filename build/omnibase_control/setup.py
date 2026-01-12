@@ -1,1 +1,0 @@
-/home/seth/omnibase_ws/src/omnibase_control/setup.py

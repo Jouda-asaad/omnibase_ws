@@ -1,1 +1,0 @@
-/home/seth/base_ws/build/mecanumbot_controller/ament_cmake_core/mecanumbot_controllerConfig.cmake

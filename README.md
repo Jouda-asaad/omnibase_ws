@@ -55,29 +55,29 @@ source install/setup.bash
 ## Architecture
 
 ```mermaid
-flowchart LR
-    subgraph Control["🎮 Control"]
-        GUI((Drone GUI))
+flowchart TB
+    subgraph Control["🎮 Control Layer"]
+        GUI["Drone GUI"]
     end
-
-    subgraph Vision["👁️ Vision"]
-        CAM[(Camera)]
-        LED[LED Detector]
-        TRACKER[Base Tracker]
+    
+    subgraph Robot["🤖 Robot Layer"]
+        UAV["UAV"]
+        BASE["Omnibase"]
     end
-
-    subgraph Robot["🤖 Robot"]
-        UAV{{UAV}}
-        BASE{{Omnibase}}
+    
+    subgraph Vision["👁️ Vision Layer"]
+        LED["LED Detector"]
+        TRACKER["Base Tracker"]
+        CAM["Camera"]
     end
-
+    
     GUI -->|"/uav/cmd_vel"| UAV
-    UAV -.->|"LED visible"| CAM
+    GUI -->|"/landing_status"| TRACKER
+    UAV -.->|"LED visible"| LED
     CAM -->|"/camera/image_raw"| LED
     LED -->|"/led_centroid"| TRACKER
-    GUI -->|"/landing_status"| TRACKER
     TRACKER -->|"/cmd_vel"| BASE
-    BASE -.->|"tracking"| UAV
+    CAM -.-> BASE
 ```
 
 ## Packages

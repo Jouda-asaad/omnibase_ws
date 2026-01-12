@@ -1,5 +1,0 @@
-[console_scripts]
-custom_planar_move = omnibase_control.custom_planar_move:main
-drone_gui = omnibase_control.drone_gui:main
-force_controller = omnibase_control.force_controller:main
-uav_teleop = omnibase_control.uav_teleop:main

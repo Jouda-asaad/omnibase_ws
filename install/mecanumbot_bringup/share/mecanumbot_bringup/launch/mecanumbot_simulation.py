@@ -1,1 +1,0 @@
-/home/seth/omnibase_ws/base_ws/src/ros2-mecanum-bot/mecanumbot_bringup/launch/mecanumbot_simulation.py

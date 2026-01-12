@@ -1,9 +1,0 @@
-source;share/omnibase_vision/hook/pythonpath.ps1
-source;share/omnibase_vision/hook/pythonpath.dsv
-source;share/omnibase_vision/hook/pythonpath.sh
-source;share/omnibase_vision/hook/ament_prefix_path.ps1
-source;share/omnibase_vision/hook/ament_prefix_path.dsv
-source;share/omnibase_vision/hook/ament_prefix_path.sh
-source;../../build/omnibase_vision/share/omnibase_vision/hook/pythonpath_develop.ps1
-source;../../build/omnibase_vision/share/omnibase_vision/hook/pythonpath_develop.dsv
-source;../../build/omnibase_vision/share/omnibase_vision/hook/pythonpath_develop.sh
