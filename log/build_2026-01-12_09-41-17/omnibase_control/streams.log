@@ -1,0 +1,20 @@
+[14.759s] Invoking command in '/home/juds/omnibase_ws/build/omnibase_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/juds/omnibase_ws/build/omnibase_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/juds/omnibase_ws/install/omnibase_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/juds/omnibase_ws/build/omnibase_control/build --no-deps symlink_data
+[18.616s] running develop
+[21.057s] running egg_info
+[21.446s] writing omnibase_control.egg-info/PKG-INFO
+[21.449s] writing dependency_links to omnibase_control.egg-info/dependency_links.txt
+[21.460s] writing entry points to omnibase_control.egg-info/entry_points.txt
+[21.461s] writing requirements to omnibase_control.egg-info/requires.txt
+[21.467s] writing top-level names to omnibase_control.egg-info/top_level.txt
+[21.828s] reading manifest file 'omnibase_control.egg-info/SOURCES.txt'
+[21.860s] writing manifest file 'omnibase_control.egg-info/SOURCES.txt'
+[22.027s] running build_ext
+[22.030s] Creating /home/juds/omnibase_ws/install/omnibase_control/lib/python3.12/site-packages/omnibase-control.egg-link (link to .)
+[22.032s] Installing custom_planar_move script to /home/juds/omnibase_ws/install/omnibase_control/lib/omnibase_control
+[22.033s] Installing drone_gui script to /home/juds/omnibase_ws/install/omnibase_control/lib/omnibase_control
+[22.033s] Installing force_controller script to /home/juds/omnibase_ws/install/omnibase_control/lib/omnibase_control
+[22.033s] Installing uav_teleop script to /home/juds/omnibase_ws/install/omnibase_control/lib/omnibase_control
+[22.042s] 
+[22.042s] Installed /home/juds/omnibase_ws/build/omnibase_control
+[22.044s] running symlink_data
+[22.261s] Invoked command in '/home/juds/omnibase_ws/build/omnibase_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/juds/omnibase_ws/build/omnibase_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/juds/omnibase_ws/install/omnibase_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/juds/omnibase_ws/build/omnibase_control/build --no-deps symlink_data

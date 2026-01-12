@@ -1,0 +1,1 @@
+/home/juds/omnibase_ws/build/omnibase_bringup/ament_cmake_environment_hooks/local_setup.sh

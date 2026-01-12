@@ -1,5 +1,6 @@
 #!/bin/bash
 # Launch script for omnibase simulation with camera views
+# - Checks and installs missing dependencies automatically
 # - Fixes NVIDIA/Mesa EGL conflict by forcing NVIDIA EGL vendor
 # - Launches simulation and camera debug views
 
@@ -7,6 +8,68 @@ set -e
 
 # Force NVIDIA EGL to prevent Mesa segfault
 export __EGL_VENDOR_LIBRARY_FILENAMES=/usr/share/glvnd/egl_vendor.d/10_nvidia.json
+
+# ===========================================
+# Dependency Check
+# ===========================================
+
+# List of required ROS2 packages
+REQUIRED_PACKAGES=(
+    "ros-jazzy-ros-gz"
+    "ros-jazzy-ros-gz-sim"
+    "ros-jazzy-ros-gz-bridge"
+    "ros-jazzy-ros-gz-image"
+    "ros-jazzy-cv-bridge"
+    "ros-jazzy-image-transport"
+    "ros-jazzy-xacro"
+    "ros-jazzy-rqt-image-view"
+    "ros-jazzy-ros2-control"
+    "ros-jazzy-ros2-controllers"
+    "ros-jazzy-gz-ros2-control"
+    "ros-jazzy-robot-state-publisher"
+    "ros-jazzy-mecanum-drive-controller"
+    "python3-opencv"
+)
+
+check_and_install_dependencies() {
+    echo "=========================================="
+    echo "  Checking Dependencies"
+    echo "=========================================="
+    
+    MISSING_PACKAGES=()
+    
+    for pkg in "${REQUIRED_PACKAGES[@]}"; do
+        if ! dpkg -s "$pkg" &> /dev/null; then
+            MISSING_PACKAGES+=("$pkg")
+            echo "✗ Missing: $pkg"
+        else
+            echo "✓ Found: $pkg"
+        fi
+    done
+    
+    if [ ${#MISSING_PACKAGES[@]} -gt 0 ]; then
+        echo ""
+        echo "Found ${#MISSING_PACKAGES[@]} missing package(s)."
+        read -p "Install missing packages? [Y/n] " -n 1 -r
+        echo ""
+        
+        if [[ $REPLY =~ ^[Yy]$ ]] || [[ -z $REPLY ]]; then
+            echo "Installing missing packages..."
+            sudo apt update
+            sudo apt install -y "${MISSING_PACKAGES[@]}"
+            echo "✓ All dependencies installed successfully!"
+        else
+            echo "⚠ Skipping installation. Some features may not work."
+        fi
+    else
+        echo ""
+        echo "✓ All dependencies are already installed!"
+    fi
+    echo ""
+}
+
+# Run dependency check
+check_and_install_dependencies
 
 # Source workspace
 cd ~/omnibase_ws

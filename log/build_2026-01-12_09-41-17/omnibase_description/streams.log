@@ -1,0 +1,27 @@
+[0.364s] Invoking command in '/home/juds/omnibase_ws/build/omnibase_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/juds/omnibase_ws/build/omnibase_description -- -j4 -l4
+[2.621s] Invoked command in '/home/juds/omnibase_ws/build/omnibase_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/juds/omnibase_ws/build/omnibase_description -- -j4 -l4
+[2.675s] Invoking command in '/home/juds/omnibase_ws/build/omnibase_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/juds/omnibase_ws/build/omnibase_description
+[4.254s] -- Install configuration: ""
+[4.279s] -- Execute custom install script
+[4.281s] -- Up-to-date symlink: /home/juds/omnibase_ws/install/omnibase_description/share/omnibase_description/urdf/omnibase.urdf.xacro
+[4.291s] -- Up-to-date symlink: /home/juds/omnibase_ws/install/omnibase_description/share/omnibase_description/launch/description.launch.py
+[4.292s] -- Up-to-date symlink: /home/juds/omnibase_ws/install/omnibase_description/share/omnibase_description/meshes/fl_wheel_link.STL
+[4.297s] -- Up-to-date symlink: /home/juds/omnibase_ws/install/omnibase_description/share/omnibase_description/meshes/fr_wheel_link.STL
+[4.309s] -- Up-to-date symlink: /home/juds/omnibase_ws/install/omnibase_description/share/omnibase_description/meshes/rl_wheel_link.STL
+[4.310s] -- Up-to-date symlink: /home/juds/omnibase_ws/install/omnibase_description/share/omnibase_description/meshes/rr_wheel_link.STL
+[4.312s] -- Up-to-date symlink: /home/juds/omnibase_ws/install/omnibase_description/share/ament_index/resource_index/package_run_dependencies/omnibase_description
+[4.312s] -- Up-to-date symlink: /home/juds/omnibase_ws/install/omnibase_description/share/ament_index/resource_index/parent_prefix_path/omnibase_description
+[4.324s] -- Up-to-date symlink: /home/juds/omnibase_ws/install/omnibase_description/share/omnibase_description/environment/ament_prefix_path.sh
+[4.325s] -- Up-to-date symlink: /home/juds/omnibase_ws/install/omnibase_description/share/omnibase_description/environment/ament_prefix_path.dsv
+[4.325s] -- Up-to-date symlink: /home/juds/omnibase_ws/install/omnibase_description/share/omnibase_description/environment/path.sh
+[4.325s] -- Up-to-date symlink: /home/juds/omnibase_ws/install/omnibase_description/share/omnibase_description/environment/path.dsv
+[4.326s] -- Up-to-date symlink: /home/juds/omnibase_ws/install/omnibase_description/share/omnibase_description/local_setup.bash
+[4.326s] -- Up-to-date symlink: /home/juds/omnibase_ws/install/omnibase_description/share/omnibase_description/local_setup.sh
+[4.326s] -- Up-to-date symlink: /home/juds/omnibase_ws/install/omnibase_description/share/omnibase_description/local_setup.zsh
+[4.351s] -- Up-to-date symlink: /home/juds/omnibase_ws/install/omnibase_description/share/omnibase_description/local_setup.dsv
+[4.352s] -- Symlinking: /home/juds/omnibase_ws/install/omnibase_description/share/omnibase_description/package.dsv
+[4.352s] -- Up-to-date symlink: /home/juds/omnibase_ws/install/omnibase_description/share/ament_index/resource_index/packages/omnibase_description
+[4.352s] -- Up-to-date symlink: /home/juds/omnibase_ws/install/omnibase_description/share/omnibase_description/cmake/omnibase_descriptionConfig.cmake
+[4.353s] -- Up-to-date symlink: /home/juds/omnibase_ws/install/omnibase_description/share/omnibase_description/cmake/omnibase_descriptionConfig-version.cmake
+[4.353s] -- Up-to-date symlink: /home/juds/omnibase_ws/install/omnibase_description/share/omnibase_description/package.xml
+[4.371s] Invoked command in '/home/juds/omnibase_ws/build/omnibase_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/juds/omnibase_ws/build/omnibase_description

@@ -1,0 +1,40 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (1.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/juds/omnibase_ws/build/omnibase_gazebo
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/juds/omnibase_ws/install/omnibase_gazebo/share/omnibase_gazebo/worlds/tracking_world.sdf
+-- Symlinking: /home/juds/omnibase_ws/install/omnibase_gazebo/share/omnibase_gazebo/models/led_marker/model.config
+-- Symlinking: /home/juds/omnibase_ws/install/omnibase_gazebo/share/omnibase_gazebo/models/led_marker/model.sdf
+-- Symlinking: /home/juds/omnibase_ws/install/omnibase_gazebo/share/omnibase_gazebo/config/ros_gz_bridge.yaml
+-- Symlinking: /home/juds/omnibase_ws/install/omnibase_gazebo/share/omnibase_gazebo/launch/simulation.launch.py
+-- Symlinking: /home/juds/omnibase_ws/install/omnibase_gazebo/share/ament_index/resource_index/package_run_dependencies/omnibase_gazebo
+-- Symlinking: /home/juds/omnibase_ws/install/omnibase_gazebo/share/ament_index/resource_index/parent_prefix_path/omnibase_gazebo
+-- Symlinking: /home/juds/omnibase_ws/install/omnibase_gazebo/share/omnibase_gazebo/environment/ament_prefix_path.sh
+-- Symlinking: /home/juds/omnibase_ws/install/omnibase_gazebo/share/omnibase_gazebo/environment/ament_prefix_path.dsv
+-- Symlinking: /home/juds/omnibase_ws/install/omnibase_gazebo/share/omnibase_gazebo/environment/path.sh
+-- Symlinking: /home/juds/omnibase_ws/install/omnibase_gazebo/share/omnibase_gazebo/environment/path.dsv
+-- Symlinking: /home/juds/omnibase_ws/install/omnibase_gazebo/share/omnibase_gazebo/local_setup.bash
+-- Symlinking: /home/juds/omnibase_ws/install/omnibase_gazebo/share/omnibase_gazebo/local_setup.sh
+-- Symlinking: /home/juds/omnibase_ws/install/omnibase_gazebo/share/omnibase_gazebo/local_setup.zsh
+-- Symlinking: /home/juds/omnibase_ws/install/omnibase_gazebo/share/omnibase_gazebo/local_setup.dsv
+-- Symlinking: /home/juds/omnibase_ws/install/omnibase_gazebo/share/omnibase_gazebo/package.dsv
+-- Symlinking: /home/juds/omnibase_ws/install/omnibase_gazebo/share/ament_index/resource_index/packages/omnibase_gazebo
+-- Symlinking: /home/juds/omnibase_ws/install/omnibase_gazebo/share/omnibase_gazebo/cmake/omnibase_gazeboConfig.cmake
+-- Symlinking: /home/juds/omnibase_ws/install/omnibase_gazebo/share/omnibase_gazebo/cmake/omnibase_gazeboConfig-version.cmake
+-- Symlinking: /home/juds/omnibase_ws/install/omnibase_gazebo/share/omnibase_gazebo/package.xml

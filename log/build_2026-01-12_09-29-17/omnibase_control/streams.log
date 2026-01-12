@@ -1,0 +1,30 @@
+[2.962s] Invoking command in '/home/juds/omnibase_ws/build/omnibase_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/juds/omnibase_ws/build/omnibase_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/juds/omnibase_ws/install/omnibase_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/juds/omnibase_ws/build/omnibase_control/build --no-deps symlink_data
+[3.901s] running develop
+[4.565s] running egg_info
+[4.565s] creating omnibase_control.egg-info
+[4.642s] writing omnibase_control.egg-info/PKG-INFO
+[4.643s] writing dependency_links to omnibase_control.egg-info/dependency_links.txt
+[4.644s] writing entry points to omnibase_control.egg-info/entry_points.txt
+[4.644s] writing requirements to omnibase_control.egg-info/requires.txt
+[4.644s] writing top-level names to omnibase_control.egg-info/top_level.txt
+[4.645s] writing manifest file 'omnibase_control.egg-info/SOURCES.txt'
+[4.743s] reading manifest file 'omnibase_control.egg-info/SOURCES.txt'
+[4.744s] writing manifest file 'omnibase_control.egg-info/SOURCES.txt'
+[4.795s] running build_ext
+[4.796s] Creating /home/juds/omnibase_ws/install/omnibase_control/lib/python3.12/site-packages/omnibase-control.egg-link (link to .)
+[4.798s] Installing custom_planar_move script to /home/juds/omnibase_ws/install/omnibase_control/lib/omnibase_control
+[4.798s] Installing drone_gui script to /home/juds/omnibase_ws/install/omnibase_control/lib/omnibase_control
+[4.799s] Installing force_controller script to /home/juds/omnibase_ws/install/omnibase_control/lib/omnibase_control
+[4.799s] Installing uav_teleop script to /home/juds/omnibase_ws/install/omnibase_control/lib/omnibase_control
+[4.800s] 
+[4.800s] Installed /home/juds/omnibase_ws/build/omnibase_control
+[4.801s] running symlink_data
+[4.801s] creating /home/juds/omnibase_ws/install/omnibase_control/share/ament_index
+[4.802s] creating /home/juds/omnibase_ws/install/omnibase_control/share/ament_index/resource_index
+[4.802s] creating /home/juds/omnibase_ws/install/omnibase_control/share/ament_index/resource_index/packages
+[4.802s] symbolically linking /home/juds/omnibase_ws/build/omnibase_control/resource/omnibase_control -> /home/juds/omnibase_ws/install/omnibase_control/share/ament_index/resource_index/packages
+[4.803s] symbolically linking /home/juds/omnibase_ws/build/omnibase_control/package.xml -> /home/juds/omnibase_ws/install/omnibase_control/share/omnibase_control
+[4.803s] creating /home/juds/omnibase_ws/install/omnibase_control/share/omnibase_control/launch
+[4.803s] creating /home/juds/omnibase_ws/install/omnibase_control/share/omnibase_control/config
+[4.804s] symbolically linking /home/juds/omnibase_ws/build/omnibase_control/config/mecanum_controllers.yaml -> /home/juds/omnibase_ws/install/omnibase_control/share/omnibase_control/config
+[4.914s] Invoked command in '/home/juds/omnibase_ws/build/omnibase_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/juds/omnibase_ws/build/omnibase_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/juds/omnibase_ws/install/omnibase_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/juds/omnibase_ws/build/omnibase_control/build --no-deps symlink_data

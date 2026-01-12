@@ -1,0 +1,4 @@
+source;share/omnibase_bringup/local_setup.bash
+source;share/omnibase_bringup/local_setup.dsv
+source;share/omnibase_bringup/local_setup.sh
+source;share/omnibase_bringup/local_setup.zsh

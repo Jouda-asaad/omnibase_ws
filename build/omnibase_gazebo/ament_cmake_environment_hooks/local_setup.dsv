@@ -1,0 +1,2 @@
+source;share/omnibase_gazebo/environment/ament_prefix_path.sh
+source;share/omnibase_gazebo/environment/path.sh
