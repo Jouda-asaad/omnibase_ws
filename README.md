@@ -55,67 +55,51 @@ source install/setup.bash
 ## Architecture
 
 ```mermaid
-flowchart TB
-    subgraph Control["🎮 Control Layer"]
-        GUI["Drone GUI"]
+flowchart LR
+    subgraph Control["🎮 Control"]
+        GUI((Drone GUI))
     end
-    
-    subgraph Robot["🤖 Robot Layer"]
-        UAV["UAV"]
-        BASE["Omnibase"]
+
+    subgraph Vision["👁️ Vision"]
+        CAM[(Camera)]
+        LED[LED Detector]
+        TRACKER[Base Tracker]
     end
-    
-    subgraph Vision["👁️ Vision Layer"]
-        LED["LED Detector"]
-        TRACKER["Base Tracker"]
-        CAM["Camera"]
+
+    subgraph Robot["🤖 Robot"]
+        UAV{{UAV}}
+        BASE{{Omnibase}}
     end
-    
+
     GUI -->|"/uav/cmd_vel"| UAV
-    GUI -->|"/landing_status"| TRACKER
-    UAV -.->|"LED visible"| LED
+    UAV -.->|"LED visible"| CAM
     CAM -->|"/camera/image_raw"| LED
     LED -->|"/led_centroid"| TRACKER
+    GUI -->|"/landing_status"| TRACKER
     TRACKER -->|"/cmd_vel"| BASE
-    CAM -.-> BASE
+    BASE -.->|"tracking"| UAV
 ```
 
 ## Packages
 
-```mermaid
-mindmap
-  root((📦 Packages))
-    omnibase_description
-      URDF with mecanum wheels + camera
-    omnibase_gazebo
-      Gazebo world, models, ROS-GZ bridge
-    omnibase_control
-      Drone GUI, controllers
-    omnibase_vision
-      LED detector, base tracker
-    omnibase_bringup
-      Launch files
-```
+| Package | Description |
+|:--------|:------------|
+| `omnibase_description` | URDF with mecanum wheels + camera |
+| `omnibase_gazebo` | Gazebo world, models, ROS-GZ bridge |
+| `omnibase_control` | Drone GUI, controllers |
+| `omnibase_vision` | LED detector, base tracker |
+| `omnibase_bringup` | Launch files |
 
 ## Topics
 
-```mermaid
-flowchart LR
-    subgraph Twist["🔄 Twist"]
-        CMD["/cmd_vel\nBase velocity"]
-        UAV["/uav/cmd_vel\nUAV commands"]
-    end
-    
-    subgraph Image["📷 Image"]
-        RAW["/camera/image_raw\nUpward camera feed"]
-        DBG["/camera/debug\nLED overlay"]
-    end
-    
-    subgraph Data["📊 Data"]
-        LED["/led_centroid\nPoint: x, y, area"]
-        LAND["/landing_status\nBool: landing mode"]
-    end
-```
+| Topic | Type | Description |
+|:------|:----:|:------------|
+| `/cmd_vel` | `Twist` | Base velocity via VelocityControl plugin |
+| `/uav/cmd_vel` | `Twist` | UAV velocity commands |
+| `/camera/image_raw` | `Image` | Upward camera feed |
+| `/camera/debug` | `Image` | Camera with LED overlay |
+| `/led_centroid` | `Point` | LED position (x, y) + area (z) |
+| `/landing_status` | `Bool` | True when landing mode active |
 
 ## Tuning
 
